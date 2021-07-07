@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <MainUnitHasUsesSectionForAllUnits Value="False"/>
+        <MainUnitHasCreateFormStatements Value="False"/>
+        <MainUnitHasTitleStatement Value="False"/>
+      </Flags>
+      <MainUnit Value="0"/>
+      <Title Value="modelshellv654"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <LazDoc Paths="."/>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="Printer4Lazarus"/>
+        <MinVersion Minor="5" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="TAChartLazarusPkg"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="29">
+      <Unit0>
+        <Filename Value="modelshellv654.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="7"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frontend.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmShellMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <TopLine Value="333"/>
+        <CursorPos X="2" Y="339"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="aboutbox.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="bkPageControl.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="30" Y="45"/>
+        <UsageCount Value="126"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="trouble.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmTrouble"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="TROUBLE"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="8" Y="45"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="data.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DataForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="91"/>
+        <CursorPos X="11" Y="116"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="equations.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="647"/>
+        <CursorPos X="45" Y="680"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="fileio.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="180"/>
+        <CursorPos Y="201"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="integrator.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="46"/>
+        <CursorPos Y="74"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="note.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmNote"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="5"/>
+        <CursorPos X="19" Y="25"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Options.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmOptions"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="ParamList.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmParamList"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="40" Y="38"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="ProgressBar.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmProgress"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos Y="55"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="ReloadDlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DlgReload"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="6"/>
+        <CursorPos X="49" Y="14"/>
+        <UsageCount Value="248"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="ScaleDlg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DlgScale"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="48"/>
+        <CursorPos X="6" Y="51"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="SeriesForm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmSeries"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="38"/>
+        <CursorPos X="2" Y="52"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="stypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="38" Y="20"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="calculate.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmCalculate"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="29" Y="59"/>
+        <UsageCount Value="248"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\modelshellv6456 w stringgrid\ParamList.pas"/>
+        <TopLine Value="32"/>
+        <CursorPos Y="45"/>
+        <UsageCount Value="85"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="display.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmDisplayOutput"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Display"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="665"/>
+        <CursorPos Y="693"/>
+        <UsageCount Value="270"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="parameter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmParameter"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="36"/>
+        <CursorPos X="19" Y="53"/>
+        <UsageCount Value="230"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="..\ses2016\modelshell\fileio.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="361"/>
+        <UsageCount Value="1"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="C:\lazarusv160\components\lazutils\winlazfileutils.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="926"/>
+        <CursorPos Y="952"/>
+        <UsageCount Value="64"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="I:\Developer\lazarus\lcl\include\menuitem.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="268"/>
+        <CursorPos Y="285"/>
+        <UsageCount Value="1"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="I:\Developer\lazarus\lcl\lclmessageglue.pas"/>
+        <UnitName Value="LCLMessageGlue"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="104"/>
+        <CursorPos Y="123"/>
+        <UsageCount Value="1"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="I:\Developer\lazarus\lcl\interfaces\carbon\carbonobject.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="254"/>
+        <CursorPos X="36" Y="280"/>
+        <UsageCount Value="1"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="I:\Developer\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2301"/>
+        <CursorPos Y="2317"/>
+        <UsageCount Value="4"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="I:\Developer\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1385"/>
+        <CursorPos Y="1401"/>
+        <UsageCount Value="4"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="I:\Developer\lazarus\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2851"/>
+        <CursorPos Y="2866"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4086" Column="18" TopLine="4066"/>
+      </Position1>
+      <Position2>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5440" Column="58" TopLine="5433"/>
+      </Position2>
+      <Position3>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5844" Column="11" TopLine="5815"/>
+      </Position3>
+      <Position4>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5757" Column="22" TopLine="5747"/>
+      </Position4>
+      <Position5>
+        <Filename Value="equations.pas"/>
+        <Caret Line="386" Column="11" TopLine="345"/>
+      </Position5>
+      <Position6>
+        <Filename Value="equations.pas"/>
+        <Caret Line="303" Column="11" TopLine="276"/>
+      </Position6>
+      <Position7>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4086" Column="18" TopLine="4066"/>
+      </Position7>
+      <Position8>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4173" Column="14" TopLine="4152"/>
+      </Position8>
+      <Position9>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4097" Column="18" TopLine="4078"/>
+      </Position9>
+      <Position10>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5201" Column="5" TopLine="5179"/>
+      </Position10>
+      <Position11>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4097" Column="18" TopLine="4078"/>
+      </Position11>
+      <Position12>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5806" TopLine="5773"/>
+      </Position12>
+      <Position13>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4115" Column="192" TopLine="4078"/>
+      </Position13>
+      <Position14>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4097" Column="18" TopLine="4085"/>
+      </Position14>
+      <Position15>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4131" Column="18" TopLine="4109"/>
+      </Position15>
+      <Position16>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4137" Column="18" TopLine="4116"/>
+      </Position16>
+      <Position17>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5182" Column="13" TopLine="5165"/>
+      </Position17>
+      <Position18>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4177" Column="18" TopLine="4157"/>
+      </Position18>
+      <Position19>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5767" Column="29" TopLine="5748"/>
+      </Position19>
+      <Position20>
+        <Filename Value="equations.pas"/>
+        <Caret Line="4193" Column="18" TopLine="4173"/>
+      </Position20>
+      <Position21>
+        <Filename Value="equations.pas"/>
+        <Caret Line="5776" Column="32" TopLine="5774"/>
+      </Position21>
+      <Position22>
+        <Filename Value="equations.pas"/>
+        <Caret Line="389" Column="18" TopLine="347"/>
+      </Position22>
+      <Position23>
+        <Filename Value="equations.pas"/>
+        <Caret Line="312" Column="16" TopLine="292"/>
+      </Position23>
+      <Position24>
+        <Filename Value="equations.pas"/>
+        <Caret Line="689" Column="53" TopLine="668"/>
+      </Position24>
+      <Position25>
+        <Filename Value="equations.pas"/>
+        <Caret Line="680" Column="45" TopLine="647"/>
+      </Position25>
+      <Position26>
+        <Filename Value="trouble.pas"/>
+      </Position26>
+      <Position27>
+        <Filename Value="trouble.pas"/>
+        <Caret Line="37" Column="3"/>
+      </Position27>
+      <Position28>
+        <Filename Value="trouble.pas"/>
+        <Caret Line="36" Column="3"/>
+      </Position28>
+      <Position29>
+        <Filename Value="trouble.pas"/>
+        <Caret Line="51" Column="119"/>
+      </Position29>
+      <Position30>
+        <Filename Value="trouble.pas"/>
+        <Caret Line="45" Column="8"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <SyntaxMode Value="Delphi"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+      </Checks>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShoLineNum Value="True"/>
+      </Verbosity>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsGlobal"/>
+        <WatchKind Value="wpkWrite"/>
+      </Item1>
+    </BreakPoints>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

@@ -1,0 +1,118 @@
+Model Definition File - 25 character maximum for all text strings
+Model Name=  Vole effects
+Model Version=	1.0.0
+Model Time Unit= year
+Model Contact= Ed
+Model Contact Address Line 1= MBL
+Model Contact Address Line 2= Woods Hole
+Model Contact Address Line 3= MA
+
+States
+Name, Units, Symbol, Num array elements if applicable - Comma separated.
+Autotrophic C, g C m-2, BC
+Autotrophic N, g N m-2, BN
+Detrital C, g C m-2, DC
+Detrital N, g N m-2, DN
+Inorganic N, g N m-2, N
+End
+
+Process
+Process Name, Units, Symbol, Num of Parameters, Num array elements if applicable
+Parameters for each process: Name, Units, Symbol
+Allometric scalar, g C m-2, S, 2
+	alpha, m2 g-1 C, alpha
+	gamma, m2 g-1 C, gamma
+Autotroph Stoichiometry, none, Psi, 1
+	autotroph C:N, g C g-1 N, qB
+Heterotroph stoichiometry, none, Phi, 1
+	heterotroph C:N, g C g-1 N, qD
+Photosyinthesis, g C m-1 yr-1, Ps, 3
+	Ps rate const, yr-1, ggC
+	CO2 half sat, ppm, kC
+	Q10 Ps, none, Q10Ps
+Autotroph respiration, g C m-2 yr-1, Ra, 2
+	autotrop resp const, yr-1, rB
+	Q10 Ra, none, Q10Ra
+Litter C, g C m-2 yr-1, LitC, 1
+	C litter rate const, yr-1, mCB
+Autotroph N uptake, g N m-2 yr-1, UN, 3
+	Autotroph N up const, g N g-1 C yr-1, ggN
+	Autotroph N half sat, g N m-2, kN
+	Q10 UN, none, Q10UN
+Litter N, g N m-2 yr-1, LitN, 1
+	N litter rate const, yr-1, mNB
+Heterotroph resp, g C m-2 yr-1, Rh, 2
+	heterotr resp rate cosnt, yr-1, rD
+	Q10 Rh, none, Q10Rh
+N immobilization, g N m-2 yr-1, UNm, 3
+	Immob rate const, g N g-1 C yr-1, gNm
+	Immob half sat, g N m-2, kNm
+	Q10 IMM, none, Q10IMM
+N miniralization, g N m-2 yr-1, Nmin, 2
+	mineraliz const, yr-1, mNm
+	Q10 Min, none, Q10Min
+N leaching, g N m-2 yr-1, QDIN,1
+	leach rate, yr-1, betaN
+DON leaching, g N m-2 yr-1, QNR, 1
+	leach DON rate, yr-1, betaNR
+DOC leaching, g C m-2 yr-1, QCR, 1
+	CN DOM, g C g-1 N, qDOM
+Vole C removal, g C m-2 yr-1, GC, 2
+	Vole C remove rate, g C vole-1 yr-1, gV
+	vole resp temp slope, g C vole-1 oC-1 yr-1, epsilonV
+Vole respiration, g C m-2 yr-1, RV, 1
+	Vole resp const, g C vole-1 yr-1, rrV
+Vole N removal, g N m-2 yr-1, GN, 1
+	Vole removal CN, g C g-1 N, qV
+Vole urine, g N m-2 yr-1, VUN, 1
+	vole min const, g N vole-1 yr-1, mNV
+End
+
+Drive
+Name, Units, Symbol, Num array elements - Comma separated.
+N inputs, g N m-2 yr-1, Nin
+Atm CO2, ppm, Ca
+temperature, oC, T
+Voles, ind ha-1, V
+End
+
+Other Double Variables
+Name, Units, Symbol - Comma separated.
+End
+
+Other Integer Variables
+Name, Units, Symbol - Comma separated.
+End
+
+Functions
+End Functions
+
+Equations – See the Computer Programming handout for instructions on writing equations in Pascal. Semicolons must end each statement.
+S:=BC*(BC*alpha+1)/(BC*gamma+1);
+if BN>0 then Psi:=BC/(BN*qB) else Psi:=1;
+if DN>0 then Phi:=DC/(DN*qD) else Phi:=1;
+Ps:=ggC*S*Ca/(kC+Ca)/Psi;
+Ps:=Ps*power(Q10Ps,T/10);
+Ra:=power(Q10Ra,T/10)*rB*BC*Psi;
+LitC:=mCB*BC;
+UN:=power(Q10UN,T/10)*ggN*S*Psi*N/(kN+N);
+LitN:=mNB*BN/Psi;
+Rh:=power(Q10Rh,T/10)*rD*DC*Phi;
+UNm:=power(Q10IMM,T/10)*gNm*DC*Phi*N/(kNm+N);
+Nmin:=power(Q10Min,T/10)*mNm*DN/Phi;
+QDIN:=betaN*N;
+QNR:=betaNR*DN;
+QCR:=QNR*qDOM;
+GC:=(22+gV-epsilonV*(T-10))*V/10000;
+RV:=rrV*(GC-22*V/10000);
+GN:=GC/qV;
+VUN:=mNV*V/10000;
+End Equations
+
+Derivatives – For array variables use jj as the array index. Same order as State var.
+dBCdt:=Ps-Ra-LitC-GC;
+dBNdt:=UN-LitN-GN;
+dDCdt:=LitC+(GC-RV)-Rh-QCR;
+dDNdt:=LitN+UNm+(GN-VUN)-Nmin-QNR;
+dNdt:=Nin+Nmin+VUN-UN-UNm-QDIN;
+

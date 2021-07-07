@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="10"/>
+    <PathDelim Value="\"/>
+    <General>
+      <MainUnit Value="0"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <BuildModes Count="1" Active="Default">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="2">
+      <Item1>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="LCL"/>
+      </Item2>
+    </RequiredPackages>
+    <Units Count="6">
+      <Unit0>
+        <Filename Value="CrEquations.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="299"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="crmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Crmain"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="1760"/>
+        <CursorPos Y="1772"/>
+        <UsageCount Value="299"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="stypes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="96"/>
+        <CursorPos X="69" Y="115"/>
+        <UsageCount Value="299"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="crmain.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="6" Y="37"/>
+        <UsageCount Value="48"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\LazProj\lazxproj_src\templates\mainform.pas"/>
+        <UnitName Value="MainForm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos Y="84"/>
+        <UsageCount Value="56"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\LazProj\lazxproj_src\templates\mainform.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="36"/>
+        <UsageCount Value="0"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit5>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="1585" TopLine="1568"/>
+      </Position1>
+      <Position2>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="1645" TopLine="1626"/>
+      </Position2>
+      <Position3>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="268" TopLine="259"/>
+      </Position3>
+      <Position4>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="269" TopLine="259"/>
+      </Position4>
+      <Position5>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="278" TopLine="259"/>
+      </Position5>
+      <Position6>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="280" TopLine="264"/>
+      </Position6>
+      <Position7>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="282" TopLine="264"/>
+      </Position7>
+      <Position8>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="284" TopLine="264"/>
+      </Position8>
+      <Position9>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="285" TopLine="264"/>
+      </Position9>
+      <Position10>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="286" TopLine="264"/>
+      </Position10>
+      <Position11>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="282" TopLine="264"/>
+      </Position11>
+      <Position12>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="284" TopLine="264"/>
+      </Position12>
+      <Position13>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="285" TopLine="264"/>
+      </Position13>
+      <Position14>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="286" TopLine="264"/>
+      </Position14>
+      <Position15>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="282" TopLine="264"/>
+      </Position15>
+      <Position16>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="284" TopLine="264"/>
+      </Position16>
+      <Position17>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="285" TopLine="264"/>
+      </Position17>
+      <Position18>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="286" TopLine="264"/>
+      </Position18>
+      <Position19>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="282" TopLine="264"/>
+      </Position19>
+      <Position20>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="288" TopLine="264"/>
+      </Position20>
+      <Position21>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="301" TopLine="269"/>
+      </Position21>
+      <Position22>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="302" TopLine="270"/>
+      </Position22>
+      <Position23>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="303" TopLine="276"/>
+      </Position23>
+      <Position24>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="304" TopLine="276"/>
+      </Position24>
+      <Position25>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="307" TopLine="276"/>
+      </Position25>
+      <Position26>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="308" TopLine="276"/>
+      </Position26>
+      <Position27>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="309" TopLine="277"/>
+      </Position27>
+      <Position28>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="310" TopLine="278"/>
+      </Position28>
+      <Position29>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="263" Column="46" TopLine="244"/>
+      </Position29>
+      <Position30>
+        <Filename Value="crmain.pas"/>
+        <Caret Line="55" Column="25" TopLine="41"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="CrEquations"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="0"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <Verbosity>
+        <ShoLineNum Value="True"/>
+      </Verbosity>
+    </Other>
+  </CompilerOptions>
+  <Debugging>
+    <Watches Count="16">
+      <Item1>
+        <Expression Value="ftempstate[1]"/>
+      </Item1>
+      <Item2>
+        <Expression Value="ftempstate[2]"/>
+      </Item2>
+      <Item3>
+        <Expression Value="ftempstate[3]"/>
+      </Item3>
+      <Item4>
+        <Expression Value="ftempstate[4]"/>
+      </Item4>
+      <Item5>
+        <Expression Value="ftempstate[5]"/>
+      </Item5>
+      <Item6>
+        <Expression Value="ftempstate[6]"/>
+      </Item6>
+      <Item7>
+        <Expression Value="ftempstate[7]"/>
+      </Item7>
+      <Item8>
+        <Expression Value="ftempstate[8]"/>
+      </Item8>
+      <Item9>
+        <Expression Value="ftempprocess[1]"/>
+      </Item9>
+      <Item10>
+        <Expression Value="ftempprocess[2]"/>
+      </Item10>
+      <Item11>
+        <Expression Value="ftempprocess[3]"/>
+      </Item11>
+      <Item12>
+        <Expression Value="ftempprocess[4]"/>
+      </Item12>
+      <Item13>
+        <Expression Value="ftempprocess[5]"/>
+      </Item13>
+      <Item14>
+        <Expression Value="ftempprocess[6]"/>
+      </Item14>
+      <Item15>
+        <Expression Value="ftempprocess[7]"/>
+      </Item15>
+      <Item16>
+        <Expression Value="ftempprocess[8]"/>
+      </Item16>
+    </Watches>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

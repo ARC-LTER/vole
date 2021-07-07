@@ -1,0 +1,86 @@
+object FmSeries: TFmSeries
+  Left = 361
+  Height = 263
+  Top = 286
+  Width = 385
+  Caption = 'Dialog'
+  ClientHeight = 263
+  ClientWidth = 385
+  Color = clBtnFace
+  DefaultMonitor = dmMainForm
+  DesignTimePPI = 120
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Arial'
+  OnResize = FormResize
+  OnShow = FormShow
+  Position = poOwnerFormCenter
+  LCLVersion = '1.8.4.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 226
+    Top = 0
+    Width = 385
+    Align = alClient
+    ClientHeight = 226
+    ClientWidth = 385
+    TabOrder = 0
+    object LbxChooseSeries: TListBox
+      Left = 1
+      Height = 224
+      Top = 1
+      Width = 383
+      Align = alClient
+      Columns = 3
+      ExtendedSelect = False
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Arial'
+      ItemHeight = 0
+      MultiSelect = True
+      ParentFont = False
+      Sorted = True
+      TabOrder = 0
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Height = 37
+    Top = 226
+    Width = 385
+    Align = alBottom
+    ClientHeight = 37
+    ClientWidth = 385
+    TabOrder = 1
+    object OKBtn: TButton
+      Left = 191
+      Height = 24
+      Top = 2
+      Width = 75
+      Caption = 'OK'
+      Default = True
+      ModalResult = 1
+      OnClick = OKBtnClick
+      TabOrder = 0
+    end
+    object CancelBtn: TButton
+      Left = 276
+      Height = 24
+      Top = 2
+      Width = 75
+      Cancel = True
+      Caption = 'Cancel'
+      ModalResult = 2
+      TabOrder = 1
+    end
+    object BtnClearSelection: TButton
+      Left = 20
+      Height = 24
+      Top = 2
+      Width = 104
+      Caption = 'Clear &Selection'
+      OnClick = BtnClearSelectionClick
+      TabOrder = 2
+    end
+  end
+end

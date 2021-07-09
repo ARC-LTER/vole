@@ -7,7 +7,7 @@ The full VOLE model is desribed in the file, Model descriptionVole V4.txt.
 ----
 ### Publications 
 
-Rastetter, E. B., K.L. Griffin, R.J. Rowe, L. Gough, J.R. McLaren, N.T. Boelman. In press 2021. Model Responses to CO2 and Warming Are Underestimated without Explicit Representation of Arctic Small-Mammal Grazing. *Ecological Applications*. Uses VOLE V4.
+Rastetter, E. B., K.L. Griffin, R.J. Rowe, L. Gough, J.R. McLaren, N.T. Boelman. In press 2021. Model Responses to CO2 and Warming Are Underestimated without Explicit Representation of Arctic Small-Mammal Grazing. *Ecological Applications*. Uses VOLE V4.0: http://doi.org/10.5281/zenodo.5083290. Data available from EDI: https://doi.org/10.6073/pasta/67108cef344d93cfdd060e7e0f0911f5 and https://doi.org/10.6073/pasta/42e6660b2d1f2b59985ed0940e53f0d4
 
 
 --------------------------------------------------------------------------
